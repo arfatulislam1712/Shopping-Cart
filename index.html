@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shopping add to Card</title>
+</head>
+<body>
+
+<div class="container">
+<!--Left-container Start -->
+
+<div class="left-container">
+     <h1 id="items">Cart (0 items)</h1>
+     <!-- Product Cart 1 Start -->
+<div class="card1">
+<img src="image/product3.avif" alt="">
+<div class="title">
+  <p>Real Madrid Home Jersey 25/26 </p>
+  <p>JURSY:WHIT  </p>
+  <p>COLOR:WHITH</p>
+  <p>SIZE:M,L,X</p>
+ <h3>$ <span id="price">0.00</span></h3>
+</div>
+<!-- Counter -->
+ <div class="counter">
+    <button onclick="DecreaseNumber('inputValue1','price')" >-</button>
+ <input type="text" name="" value="0" id="inputValue1">
+ <button onclick="increaseNumber('inputValue1','price')">+</button>
+ </div>
+</div>
+
+<!-- Cart 2 -->
+ <div class="card1">
+<img src="image/product4.avif" alt="">
+<div class="title">
+  <p>Real Madrid Home Jersey 25/26 </p>
+  <p>JURSY:WHIT  </p>
+  <p>COLOR:WHITH</p>
+  <p>SIZE:M,L,X</p>
+ <h3>$ <span id="price2">0.00</span></h3>
+ 
+</div>
+<!-- Counter -->
+ <div class="counter">
+    <button onclick="DecreaseNumber('inputValue2','price2')">-</button>
+ <input type="text" name="" value="0" id="inputValue2">
+ <button onclick="increaseNumber('inputValue2','price2')">+</button>
+ </div>
+</div>
+<!-- <hr> -->
+<!-- Product Cart 3 -->
+ <div class="card1">
+<img src="image/product1.avif" alt="">
+<div class="title">
+  <p>Real Madrid Home Jersey 25/26 </p>
+  <p>JURSY:WHIT  </p>
+  <p>COLOR:WHITH</p>
+  <p>SIZE:M,L,X</p>
+ <h3>$ <span id="price3">0.00</span></h3>
+  
+</div>
+<!-- Counter -->
+ <div class="counter">
+    <button onclick="DecreaseNumber('inputValue3','price3')">-</button>
+ <input type="text" name="" value="0" id="inputValue3">
+ <button onclick="increaseNumber('inputValue3','price3')"> +</button>
+ </div>
+</div>
+</div>
+<!--Left-container END -->
+
+
+
+<!-- right-container Start -->
+
+   <div class="right-container">
+   <h2 >The Total Amount Of</h2>
+   <div class="card">
+   <div class="amount-title">
+    <h3>Product amount:</h3>
+    <p >$<span id="ProductAmount">0.00</span></p>
+   </div>
+   <div class="amount-title">
+   <h3>Shipping Charge:</h3>
+    <p>$<span id="ShippingCharge">4</span></p>
+   </div>
+<hr>
+<!-- Total Maount -->
+   <div class="amount-title">
+   <h3>Total amount of(including VAT)</h3>
+    <p>$ <span id="TotalAmount">0.00</span></p>
+   </div>
+   <!-- Check Box -->
+    <div class="checkout">
+        <button>CHECKOUT</button>
+    </div>
+    <div class="delivery">
+        <h3>Expected delivery date</h3>
+    </div>
+    </div>
+
+</div>
+
+</div>
+<script src="js/script.js"></script>
+</body>
+</html> 
+
